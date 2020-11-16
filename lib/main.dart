@@ -89,10 +89,42 @@ class SignUpFormState extends State<SignUpForm> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.amber,
-                      minRadius: 32.0,
-                      child: Text('MA', style: TextStyle(color: Colors.white)),
+                    Container(
+                      margin: EdgeInsets.all(8.0),
+                      child: FutureBuilder<File>(
+                        future: file,
+                        builder: (BuildContext context,
+                            AsyncSnapshot<File> snapshot) {
+                          if (snapshot.connectionState ==
+                                  ConnectionState.done &&
+                              null != snapshot.data) {
+                            tmpFile = snapshot.data;
+                            base64Image =
+                                base64Encode(snapshot.data.readAsBytesSync());
+                            return Flexible(
+                                child: ClipOval(
+                              child: Image.file(
+                                snapshot.data,
+                                fit: BoxFit.fill,
+                                width: 96.0,
+                                height: 96.0,
+                              ),
+                            ));
+                          } else if (null != snapshot.error) {
+                            return const Text(
+                              'Error Picking Image',
+                              textAlign: TextAlign.center,
+                            );
+                          } else {
+                            return const CircleAvatar(
+                              backgroundColor: Colors.amber,
+                              minRadius: 48.0,
+                              child: Text('MA',
+                                  style: TextStyle(color: Colors.white)),
+                            );
+                          }
+                        },
+                      ),
                     ),
                     Container(
                         margin: EdgeInsets.fromLTRB(16.0, 0, 16.0, 0),
@@ -253,35 +285,35 @@ class SignUpFormState extends State<SignUpForm> {
                     return validateInput(value, 'Address');
                   },
                 )),
-            Container(
-              margin: EdgeInsets.all(8.0),
-              child: FutureBuilder<File>(
-                future: file,
-                builder: (BuildContext context, AsyncSnapshot<File> snapshot) {
-                  if (snapshot.connectionState == ConnectionState.done &&
-                      null != snapshot.data) {
-                    tmpFile = snapshot.data;
-                    base64Image = base64Encode(snapshot.data.readAsBytesSync());
-                    return Flexible(
-                      child: Image.file(
-                        snapshot.data,
-                        fit: BoxFit.fill,
-                      ),
-                    );
-                  } else if (null != snapshot.error) {
-                    return const Text(
-                      'Error Picking Image',
-                      textAlign: TextAlign.center,
-                    );
-                  } else {
-                    return const Text(
-                      'No Image Selected',
-                      textAlign: TextAlign.center,
-                    );
-                  }
-                },
-              ),
-            ),
+            // Container(
+            //   margin: EdgeInsets.all(8.0),
+            //   child: FutureBuilder<File>(
+            //     future: file,
+            //     builder: (BuildContext context, AsyncSnapshot<File> snapshot) {
+            //       if (snapshot.connectionState == ConnectionState.done &&
+            //           null != snapshot.data) {
+            //         tmpFile = snapshot.data;
+            //         base64Image = base64Encode(snapshot.data.readAsBytesSync());
+            //         return Flexible(
+            //           child: Image.file(
+            //             snapshot.data,
+            //             fit: BoxFit.fill,
+            //           ),
+            //         );
+            //       } else if (null != snapshot.error) {
+            //         return const Text(
+            //           'Error Picking Image',
+            //           textAlign: TextAlign.center,
+            //         );
+            //       } else {
+            //         return const Text(
+            //           'No Image Selected',
+            //           textAlign: TextAlign.center,
+            //         );
+            //       }
+            //     },
+            //   ),
+            // ),
             Container(
                 margin: EdgeInsets.fromLTRB(16.0, 8.0, 16.0, 8.0),
                 child: FlatButton(
