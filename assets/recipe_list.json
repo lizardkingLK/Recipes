@@ -1,0 +1,609 @@
+{
+    "count": 1259,
+    "results": [
+        {
+            "facebook_posts": [],
+            "recirc_feeds": {
+                "ease": [
+                    "easy",
+                    "under_30_minutes",
+                    "5_ingredients_or_less"
+                ],
+                "meal": [
+                    "sides"
+                ]
+            },
+            "num_servings": 6,
+            "servings_noun_singular": "serving",
+            "thumbnail_url": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/81004ca8ad954b75ac614669f32bc289.png",
+            "yields": "Servings: 6-8",
+            "aspect_ratio": "16:9",
+            "brand_id": null,
+            "created_at": 1621710231,
+            "draft_status": "published",
+            "nutrition_visibility": "auto",
+            "beauty_url": null,
+            "id": 7413,
+            "original_video_url": null,
+            "renditions": [],
+            "user_ratings": {
+                "count_positive": 0,
+                "count_negative": 0,
+                "score": null
+            },
+            "video_ad_content": null,
+            "show": {
+                "id": 17,
+                "name": "Tasty"
+            },
+            "approved_at": 1623174777,
+            "language": "eng",
+            "prep_time_minutes": null,
+            "promotion": "full",
+            "country": "US",
+            "is_shoppable": true,
+            "brand": null,
+            "credits": [
+                {
+                    "name": "Donnella Pearson",
+                    "type": "community"
+                }
+            ],
+            "compilations": [],
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "ingredient": {
+                                "id": 8454,
+                                "name": "corn cobs",
+                                "display_singular": "corn cob",
+                                "display_plural": "corn cobs",
+                                "created_at": 1621856142,
+                                "updated_at": 1621856142
+                            },
+                            "id": 82720,
+                            "raw_text": "6 corn cobs , hulled",
+                            "extra_comment": "hulled",
+                            "position": 1,
+                            "measurements": [
+                                {
+                                    "id": 641000,
+                                    "quantity": "6",
+                                    "unit": {
+                                        "name": "",
+                                        "abbreviation": "",
+                                        "display_singular": "",
+                                        "display_plural": "",
+                                        "system": "none"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "measurements": [
+                                {
+                                    "id": 641001,
+                                    "quantity": "2",
+                                    "unit": {
+                                        "name": "can",
+                                        "abbreviation": "can",
+                                        "display_singular": "can",
+                                        "display_plural": "cans",
+                                        "system": "none"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "created_at": 1495314869,
+                                "updated_at": 1509035250,
+                                "id": 575,
+                                "name": "chickpeas",
+                                "display_singular": "chickpea",
+                                "display_plural": "chickpeas"
+                            },
+                            "id": 82721,
+                            "raw_text": "2 14 oz. cans of Chickpeas, drained",
+                            "extra_comment": "drained",
+                            "position": 2
+                        },
+                        {
+                            "position": 3,
+                            "measurements": [
+                                {
+                                    "id": 640996,
+                                    "quantity": "1",
+                                    "unit": {
+                                        "name": "bunch",
+                                        "abbreviation": "bunch",
+                                        "display_singular": "bunch",
+                                        "display_plural": "bunches",
+                                        "system": "none"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "id": 3235,
+                                "name": "flat leaf parsley",
+                                "display_singular": "flat leaf parsley",
+                                "display_plural": "flat leaf parsleys",
+                                "created_at": 1510626967,
+                                "updated_at": 1510626967
+                            },
+                            "id": 82722,
+                            "raw_text": "1 bunches of flat leaf parsley, chopped",
+                            "extra_comment": "chopped"
+                        },
+                        {
+                            "id": 82723,
+                            "raw_text": "1 bunch of cilantro chopped",
+                            "extra_comment": "chopped",
+                            "position": 4,
+                            "measurements": [
+                                {
+                                    "unit": {
+                                        "name": "bunch",
+                                        "abbreviation": "bunch",
+                                        "display_singular": "bunch",
+                                        "display_plural": "bunches",
+                                        "system": "none"
+                                    },
+                                    "id": 640990,
+                                    "quantity": "1"
+                                }
+                            ],
+                            "ingredient": {
+                                "updated_at": 1509035266,
+                                "id": 372,
+                                "name": "fresh cilantro",
+                                "display_singular": "fresh cilantro",
+                                "display_plural": "fresh cilantros",
+                                "created_at": 1494974463
+                            }
+                        },
+                        {
+                            "measurements": [
+                                {
+                                    "id": 640989,
+                                    "quantity": "1",
+                                    "unit": {
+                                        "abbreviation": "",
+                                        "display_singular": "",
+                                        "display_plural": "",
+                                        "system": "none",
+                                        "name": ""
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "created_at": 1493307196,
+                                "updated_at": 1509035289,
+                                "id": 13,
+                                "name": "red onion",
+                                "display_singular": "red onion",
+                                "display_plural": "red onions"
+                            },
+                            "id": 82724,
+                            "raw_text": "1 red onion, minced",
+                            "extra_comment": "minced",
+                            "position": 5
+                        },
+                        {
+                            "id": 82725,
+                            "raw_text": "1 qt. container of grape tomatoes, halved",
+                            "extra_comment": "halved",
+                            "position": 6,
+                            "measurements": [
+                                {
+                                    "id": 641002,
+                                    "quantity": "1",
+                                    "unit": {
+                                        "display_plural": "containers",
+                                        "system": "none",
+                                        "name": "container",
+                                        "abbreviation": "container",
+                                        "display_singular": "container"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "id": 3519,
+                                "name": "grape tomato",
+                                "display_singular": "grape tomato",
+                                "display_plural": "grape tomatoes",
+                                "created_at": 1515991574,
+                                "updated_at": 1515991574
+                            }
+                        },
+                        {
+                            "ingredient": {
+                                "created_at": 1493307128,
+                                "updated_at": 1509035289,
+                                "id": 9,
+                                "name": "garlic powder",
+                                "display_singular": "garlic powder",
+                                "display_plural": "garlic powders"
+                            },
+                            "id": 82726,
+                            "raw_text": "1 Tbsp Garlic powder",
+                            "extra_comment": "",
+                            "position": 7,
+                            "measurements": [
+                                {
+                                    "quantity": "1",
+                                    "unit": {
+                                        "name": "tablespoon",
+                                        "abbreviation": "tbsp",
+                                        "display_singular": "tablespoon",
+                                        "display_plural": "tablespoons",
+                                        "system": "imperial"
+                                    },
+                                    "id": 640998
+                                }
+                            ]
+                        },
+                        {
+                            "raw_text": "2 Tbsp Mc Cormick Moroccan seasoning",
+                            "extra_comment": "",
+                            "position": 8,
+                            "measurements": [
+                                {
+                                    "id": 641004,
+                                    "quantity": "2",
+                                    "unit": {
+                                        "system": "imperial",
+                                        "name": "tablespoon",
+                                        "abbreviation": "tbsp",
+                                        "display_singular": "tablespoon",
+                                        "display_plural": "tablespoons"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "id": 8455,
+                                "name": "Mc Cormick Moroccan seasoning",
+                                "display_singular": "Mc Cormick Moroccan seasoning",
+                                "display_plural": "Mc Cormick Moroccan seasonings",
+                                "created_at": 1621856196,
+                                "updated_at": 1621856196
+                            },
+                            "id": 82727
+                        },
+                        {
+                            "id": 82728,
+                            "raw_text": "1 Tbsp Mc Cormick Paprika",
+                            "extra_comment": "",
+                            "position": 9,
+                            "measurements": [
+                                {
+                                    "id": 640999,
+                                    "quantity": "1",
+                                    "unit": {
+                                        "display_plural": "tablespoons",
+                                        "system": "imperial",
+                                        "name": "tablespoon",
+                                        "abbreviation": "tbsp",
+                                        "display_singular": "tablespoon"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "id": 5112,
+                                "name": "McCormick® Paprika",
+                                "display_singular": "McCormick® Paprika",
+                                "display_plural": "McCormick® Paprikas",
+                                "created_at": 1550780168,
+                                "updated_at": 1550780168
+                            }
+                        },
+                        {
+                            "id": 82729,
+                            "raw_text": "½ Tbsp Mc Cormick Cumin",
+                            "extra_comment": "",
+                            "position": 10,
+                            "measurements": [
+                                {
+                                    "id": 641003,
+                                    "quantity": "½",
+                                    "unit": {
+                                        "display_plural": "tablespoons",
+                                        "system": "imperial",
+                                        "name": "tablespoon",
+                                        "abbreviation": "tbsp",
+                                        "display_singular": "tablespoon"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "id": 5520,
+                                "name": "Mccormick® ground cumin",
+                                "display_singular": "Mccormick® ground cumin",
+                                "display_plural": "Mccormick® ground cumins",
+                                "created_at": 1560388588,
+                                "updated_at": 1560388588
+                            }
+                        },
+                        {
+                            "raw_text": "½ cup Extra Virgin Olive oil",
+                            "extra_comment": "",
+                            "position": 11,
+                            "measurements": [
+                                {
+                                    "quantity": "½",
+                                    "unit": {
+                                        "system": "imperial",
+                                        "name": "cup",
+                                        "abbreviation": "c",
+                                        "display_singular": "cup",
+                                        "display_plural": "cups"
+                                    },
+                                    "id": 640997
+                                },
+                                {
+                                    "id": 640995,
+                                    "quantity": "120",
+                                    "unit": {
+                                        "system": "metric",
+                                        "name": "milliliter",
+                                        "abbreviation": "mL",
+                                        "display_singular": "mL",
+                                        "display_plural": "mL"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "display_plural": "extra virgin olive oils",
+                                "created_at": 1495076759,
+                                "updated_at": 1509035259,
+                                "id": 452,
+                                "name": "extra virgin olive oil",
+                                "display_singular": "extra virgin olive oil"
+                            },
+                            "id": 82730
+                        },
+                        {
+                            "id": 82731,
+                            "raw_text": "1 lime juiced",
+                            "extra_comment": "juiced",
+                            "position": 12,
+                            "measurements": [
+                                {
+                                    "id": 640993,
+                                    "quantity": "1",
+                                    "unit": {
+                                        "name": "",
+                                        "abbreviation": "",
+                                        "display_singular": "",
+                                        "display_plural": "",
+                                        "system": "none"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "id": 323,
+                                "name": "lime",
+                                "display_singular": "lime",
+                                "display_plural": "limes",
+                                "created_at": 1494874467,
+                                "updated_at": 1509035270
+                            }
+                        },
+                        {
+                            "id": 82732,
+                            "raw_text": "Salt and black Pepper, to taste",
+                            "extra_comment": "to taste",
+                            "position": 13,
+                            "measurements": [
+                                {
+                                    "id": 640991,
+                                    "quantity": "0",
+                                    "unit": {
+                                        "name": "",
+                                        "abbreviation": "",
+                                        "display_singular": "",
+                                        "display_plural": "",
+                                        "system": "none"
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "display_singular": "salt and pepper",
+                                "display_plural": "salt and peppers",
+                                "created_at": 1591200156,
+                                "updated_at": 1591200156,
+                                "id": 6483,
+                                "name": "salt and pepper"
+                            }
+                        },
+                        {
+                            "ingredient": {
+                                "id": 100,
+                                "name": "oil",
+                                "display_singular": "oil",
+                                "display_plural": "oils",
+                                "created_at": 1493745145,
+                                "updated_at": 1509035284
+                            },
+                            "id": 82733,
+                            "raw_text": "Oil (for grilling)",
+                            "extra_comment": "for grilling",
+                            "position": 14,
+                            "measurements": [
+                                {
+                                    "quantity": "0",
+                                    "unit": {
+                                        "abbreviation": "",
+                                        "display_singular": "",
+                                        "display_plural": "",
+                                        "system": "none",
+                                        "name": ""
+                                    },
+                                    "id": 640994
+                                }
+                            ]
+                        },
+                        {
+                            "measurements": [
+                                {
+                                    "id": 640992,
+                                    "quantity": "0",
+                                    "unit": {
+                                        "display_plural": "",
+                                        "system": "none",
+                                        "name": "",
+                                        "abbreviation": "",
+                                        "display_singular": ""
+                                    }
+                                }
+                            ],
+                            "ingredient": {
+                                "name": "tongs",
+                                "display_singular": "tong",
+                                "display_plural": "tongs",
+                                "created_at": 1621856255,
+                                "updated_at": 1621856255,
+                                "id": 8456
+                            },
+                            "id": 82734,
+                            "raw_text": "Tongs",
+                            "extra_comment": "",
+                            "position": 15
+                        }
+                    ],
+                    "name": null,
+                    "position": 1
+                }
+            ],
+            "canonical_id": "recipe:7413",
+            "description": "",
+            "servings_noun_plural": "servings",
+            "tips_and_ratings_enabled": true,
+            "updated_at": 1623174778,
+            "video_url": null,
+            "instructions": [
+                {
+                    "display_text": "Preheat grill or indoor grill on high heat (350°F)",
+                    "position": 1,
+                    "start_time": 0,
+                    "end_time": 0,
+                    "temperature": null,
+                    "appliance": null,
+                    "id": 65026
+                },
+                {
+                    "appliance": null,
+                    "id": 65027,
+                    "display_text": "Grill corn on one side for 5 minutes, flip to another side for 5 minutes, and a final time for 5 minutes to ensure charring on all sides ( grilling time 15 minutes).",
+                    "position": 2,
+                    "start_time": 0,
+                    "end_time": 0,
+                    "temperature": null
+                },
+                {
+                    "position": 3,
+                    "start_time": 0,
+                    "end_time": 0,
+                    "temperature": null,
+                    "appliance": null,
+                    "id": 65028,
+                    "display_text": "Transfer grilled corn to a plate to cool, about 5 minutes."
+                },
+                {
+                    "appliance": null,
+                    "id": 65029,
+                    "display_text": "Slice off corn kernels from the cobs, then break them apart into pieces.",
+                    "position": 4,
+                    "start_time": 0,
+                    "end_time": 0,
+                    "temperature": null
+                },
+                {
+                    "display_text": "In a bowl, combine chickpeas, corn, and chopped veggies. Sprinkle in the Moroccan seasoning, paprika, cumin, extra virgin olive oil, and lime juice.",
+                    "position": 5,
+                    "start_time": 0,
+                    "end_time": 0,
+                    "temperature": null,
+                    "appliance": null,
+                    "id": 65030
+                },
+                {
+                    "id": 65031,
+                    "display_text": "Season with salt and pepper to taste.",
+                    "position": 6,
+                    "start_time": 0,
+                    "end_time": 0,
+                    "temperature": null,
+                    "appliance": null
+                }
+            ],
+            "nutrition": {
+                "calories": 572,
+                "carbohydrates": 71,
+                "fat": 28,
+                "protein": 17,
+                "sugar": 14,
+                "fiber": 15,
+                "updated_at": "2021-05-25T08:09:22+02:00"
+            },
+            "inspired_by_url": null,
+            "name": "Moroccan Grilled Corn And Chickpea Salad",
+            "show_id": 17,
+            "slug": "moroccan-grilled-corn-and-chickpea-salad",
+            "seo_title": "",
+            "total_time_minutes": null,
+            "video_id": null,
+            "total_time_tier": {
+                "tier": "under_30_minutes",
+                "display_tier": "Under 30 minutes"
+            },
+            "buzz_id": null,
+            "cook_time_minutes": null,
+            "is_one_top": false,
+            "keywords": "",
+            "tags": [
+                {
+                    "id": 64472,
+                    "name": "under_30_minutes",
+                    "display_name": "Under 30 Minutes",
+                    "type": "difficulty"
+                },
+                {
+                    "name": "vegetarian",
+                    "display_name": "Vegetarian",
+                    "type": "dietary",
+                    "id": 64469
+                },
+                {
+                    "id": 64466,
+                    "name": "healthy",
+                    "display_name": "Healthy",
+                    "type": "dietary"
+                },
+                {
+                    "name": "appetizers",
+                    "display_name": "Appetizers",
+                    "type": "meal",
+                    "id": 64481
+                },
+                {
+                    "id": 64490,
+                    "name": "sides",
+                    "display_name": "Sides",
+                    "type": "meal"
+                },
+                {
+                    "id": 64501,
+                    "name": "game_day",
+                    "display_name": "Game Day",
+                    "type": "occasion"
+                },
+                {
+                    "name": "bbq",
+                    "display_name": "BBQ",
+                    "type": "occasion",
+                    "id": 64504
+                }
+            ]
+        }
+    ]
+}
